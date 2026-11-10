@@ -1,10 +1,4 @@
 # Testes com usuários
-## Roteiro do teste (5–10 min)
-1. Explique que é um protótipo e que os valores são estimativas.
-2. Peça: "Descubra quanto seu chuveiro gasta por mês."
-3. Peça: "Compare as alternativas e me diga qual você escolheria."
-4. Pergunte: Entendeu o resultado? Alguma palavra difícil? Confiou? Faltou algo?
-
 ## Registro
 | Participante | Perfil | Situação testada | Compreendeu? (1–5) | Comentário | Ajuste feito |
 |---|---|---|---|---|---|
