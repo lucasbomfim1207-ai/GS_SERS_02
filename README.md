@@ -4,7 +4,7 @@
 > Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está nas pastas `energia/`, `data/`, `docs/`, `tests/` e `resultados/`.
 
 ## Vídeo técnico (YouTube, não listado)
-🎥 **COLE_AQUI_O_LINK_DO_VIDEO**
+ **COLE_AQUI_O_LINK_DO_VIDEO**
 
 ## Integrantes
 | Nome | RM |
@@ -59,6 +59,3 @@ tests/          testes automatizados
 ## Testes
 - **Testes automatizados:** `python -m unittest discover -s tests -t .`
 - **Testes com usuários:** registrados em `docs/testes_usuarios.md`.
-
-## Uso de IA generativa
-Usamos IA como apoio para estruturar código e documentação. A equipe revisou fórmulas, premissas e referências e é responsável por elas.
