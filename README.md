@@ -4,7 +4,7 @@
 > Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está nas pastas `energia/`, `data/`, `docs/`, `tests/` e `resultados/`.
 
 ## Vídeo técnico (YouTube, não listado)
- **COLE_AQUI_O_LINK_DO_VIDEO**
+
 
 ## Integrantes
 | Nome | RM |
