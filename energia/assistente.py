@@ -23,6 +23,11 @@ def _pb(x):
 class Assistente:
     def __init__(self):
         self.p = carregar_premissas()
+        self.moradia = None  # 'propria' ou 'alugada'
+
+    def definir_moradia(self, resposta):
+        r = resposta.strip().lower()
+        self.moradia = "alugada" if "alug" in r else "propria"
 
     def ajuda(self):
         return ("Posso ajudar com energia em casa. Experimente:\n"
@@ -62,7 +67,11 @@ class Assistente:
         b, c = r[2], r[3]
         sens = sensibilidade_tarifa(self.p, [0.80, 1.10, 1.40])
         linhas = "\n".join(f"   tarifa {_brl(t)}: solar térmico {_pb(pb)} | fotovoltaico {_pb(pc)}" for t, pb, pc in sens)
-        return (f"Solar pode valer a pena, depende do seu caso.\n"
+        aviso_aluguel = ""
+        if self.moradia == "alugada":
+            aviso_aluguel = ("Como você mora de aluguel, B e C dependem de autorização do proprietário e o "
+                             "investimento pode não compensar: comece pela alternativa A.\n")
+        return (f"Solar pode valer a pena, depende do seu caso.\n{aviso_aluguel}"
                 f"• Aquecedor solar: retorno ≈ {_pb(b.payback_anos)} (investimento {_brl(b.investimento_rs)}).\n"
                 f"• Fotovoltaico: retorno ≈ {_pb(c.payback_anos)} (investimento {_brl(c.investimento_rs)}).\n"
                 f"Sensibilidade à tarifa:\n{linhas}\n"
@@ -126,7 +135,12 @@ class Assistente:
 
 def main():
     a = Assistente()
-    print("Citizen Assist AI – módulo Energia\n" + a.ajuda())
+    print("Citizen Assist AI – módulo Energia")
+    try:
+        a.definir_moradia(input("Antes de começar: você mora em imóvel próprio ou alugado? "))
+    except (EOFError, KeyboardInterrupt):
+        return
+    print(a.ajuda())
     while True:
         try:
             msg = input("\nVocê: ").strip()

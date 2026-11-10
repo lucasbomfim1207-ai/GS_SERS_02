@@ -14,7 +14,7 @@ fracao_solar_aquecedor,0.70,fração anual,estimado,Fração solar média anual 
 vida_util_aquecedor_anos,15,anos,estimado,Vida útil típica informada por fabricantes/Inmetro-PBE
 custo_fv_rs_por_wp,5.00,R$/Wp,estimado,Sistemas residenciais pequenos instalados; FAZER 3 ORÇAMENTOS locais
 irradiacao_hsp_kwh_m2_dia,4.5,kWh/m2/dia,estimado,Ordem de grandeza para Grande SP; confirmar no Atlas Brasileiro de Energia Solar (INPE) ou CRESESB/SunData
-desempenho_global_pr,0.80,adimensional,estimado,Perdas típicas de um sistema FV (inversor, temperatura, sujeira)
+desempenho_global_pr,0.80,adimensional,estimado,Perdas típicas de um sistema FV (inversor; temperatura; sujeira)
 fator_perda_fio_b,0.10,fração,estimado,Redução da economia por cobrança progressiva do Fio B (Lei 14.300/2022) e custo de disponibilidade; confirmar com a distribuidora
 manutencao_fv_rs_ano,80,R$/ano,estimado,Limpeza/inspeção; estimativa
 vida_util_fv_anos,25,anos,estimado,Garantia de desempenho típica de módulos

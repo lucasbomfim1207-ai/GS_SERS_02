@@ -27,6 +27,14 @@ class TestModelo(unittest.TestCase):
         self.assertIn("ESTIMATIVAS", a.responder("solar vale a pena?"))
         self.assertIn("kWh/mês", a.responder("2000 W 30 min"))
 
+    def test_moradia_alugada(self):
+        a = Assistente()
+        a.definir_moradia("alugada")
+        self.assertIn("Como você mora de aluguel", a.responder("solar vale a pena?"))
+        b = Assistente()
+        b.definir_moradia("própria")
+        self.assertNotIn("Como você mora de aluguel", b.responder("solar vale a pena?"))
+
 
 if __name__ == "__main__":
     unittest.main()

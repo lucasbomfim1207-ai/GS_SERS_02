@@ -1,6 +1,10 @@
 # Citizen Assist AI — Contribuição de Energias Renováveis e Sustentáveis (Global Solution 2026)
 
 > **Disciplina:** Soluções em Energias Renováveis e Sustentáveis · **Turma:** 1CCPJ
+> Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está nas pastas `energia/`, `data/`, `docs/`, `tests/` e `resultados/`.
+
+## Vídeo técnico (YouTube, não listado)
+🎥 **COLE_AQUI_O_LINK_DO_VIDEO**
 
 ## Integrantes
 | Nome | RM |
@@ -22,7 +26,8 @@
    - **B)** Aquecedor solar de água com apoio elétrico — **fonte renovável (térmica)**.
    - **C)** Energia solar fotovoltaica dimensionada para o chuveiro — **fonte renovável (elétrica)**.
 4. **"Solar vale a pena?"** — payback e sensibilidade à tarifa.
-5. **Dicas, fontes e limitações** em toda resposta.
+5. **Pergunta inicial sobre moradia** (própria ou alugada): se alugada, o assistente avisa que solar depende de autorização do proprietário e prioriza a alternativa A.
+6. **Dicas, fontes e limitações** em toda resposta.
 
 ## Como executar
 ```bash
@@ -36,7 +41,7 @@ Exemplos de perguntas: `quanto gasta meu chuveiro`, `configurar`, `comparar alte
 ```
 energia/        código (modelo.py = cálculos, assistente.py = respostas, relatorio.py)
 data/           premissas.csv (valor, unidade, tipo oficial/estimado, origem)
-docs/           calculos.md · justificativas.md · referencias.md · testes_usuarios.md · roteiro_video.md
+docs/           calculos.md · justificativas.md · referencias.md · testes_usuarios.md
 resultados/     comparacao.csv · sensibilidade_tarifa.csv
 tests/          testes automatizados
 ```
@@ -50,3 +55,10 @@ tests/          testes automatizados
 | C) Fotovoltaico (0,81 kWp) | 0 | R$ 87,12 | R$ 4.074 | 4,2 anos | R$ 6.036 |
 
 **Todos os valores são estimativas, não garantias.** Dados estimados estão marcados como tal em `data/premissas.csv`.
+
+## Testes
+- **Testes automatizados:** `python -m unittest discover -s tests -t .`
+- **Testes com usuários:** registrados em `docs/testes_usuarios.md`.
+
+## Uso de IA generativa
+Usamos IA como apoio para estruturar código e documentação. A equipe revisou fórmulas, premissas e referências e é responsável por elas.
