@@ -1,10 +1,10 @@
 # Citizen Assist AI — Contribuição de Energias Renováveis e Sustentáveis (Global Solution 2026)
 
 > **Disciplina:** Soluções em Energias Renováveis e Sustentáveis · **Turma:** 1CCPJ
-> Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está nas pastas `energia/`, `data/`, `docs/`, `tests/` e `resultados/`.
+> Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está nas pastas `energia/`, `data/`, `docs/`, `tests/` e `resultados/`.  
 
-## Vídeo técnico (YouTube, não listado)
-
+    
+[Vídeo](https://youtu.be/HA6PEf0B_V4)
 
 ## Integrantes
 | Nome | RM |
