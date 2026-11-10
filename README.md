@@ -1,7 +1,6 @@
 # Citizen Assist AI — Contribuição de Energias Renováveis e Sustentáveis (Global Solution 2026)
 
 > **Disciplina:** Soluções em Energias Renováveis e Sustentáveis · **Turma:** 1CCPJ
-> Se este repositório for compartilhado com outras disciplinas, a contribuição desta disciplina está **toda na pasta `energia/`**, em `data/`, `docs/`, `tests/` e `resultados/`.
 
 ## Integrantes
 | Nome | RM |
@@ -51,6 +50,3 @@ tests/          testes automatizados
 | C) Fotovoltaico (0,81 kWp) | 0 | R$ 87,12 | R$ 4.074 | 4,2 anos | R$ 6.036 |
 
 **Todos os valores são estimativas, não garantias.** Dados estimados estão marcados como tal em `data/premissas.csv`.
-
-## Uso de IA generativa
-Usamos IA como apoio para estruturar código e documentação. A equipe revisou fórmulas, premissas e referências, e é responsável por elas.
