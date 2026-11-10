@@ -1,7 +1,4 @@
 # Testes com usuários
-
-> **Preencher com testes REAIS** (mínimo sugerido: 3–5 pessoas do público: familiares, vizinhos, colegas). Não inclua nome completo, endereço ou dados da conta; use "Participante 1", idade aproximada e perfil.
-
 ## Roteiro do teste (5–10 min)
 1. Explique que é um protótipo e que os valores são estimativas.
 2. Peça: "Descubra quanto seu chuveiro gasta por mês."
