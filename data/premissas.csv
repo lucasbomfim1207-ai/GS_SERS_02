@@ -1,0 +1,20 @@
+parametro,valor,unidade,tipo,origem_ou_justificativa
+pessoas_domicilio,4,pessoas,estimado,Perfil-exemplo de família de baixa renda; ajustável pelo usuário
+banhos_por_pessoa_dia,1,banhos/dia,estimado,Hábito médio; ajustável pelo usuário
+duracao_banho_min,8,min,estimado,Hábito médio; ajustável pelo usuário
+potencia_chuveiro_w,5500,W,estimado,Faixa típica de chuveiros elétricos 4500–7500 W (etiqueta do fabricante / Inmetro-PBE); conferir etiqueta do aparelho
+tarifa_kwh_com_tributos,1.10,R$/kWh,estimado,Ordem de grandeza B1 Enel SP com ICMS e PIS/COFINS; SUBSTITUIR pelo valor da conta do usuário ou por aneel.gov.br
+dias_mes,30,dias,premissa,Convenção de cálculo
+horizonte_anos,10,anos,premissa,Período de referência comum para as alternativas
+fator_emissao_rede_kgco2_kwh,0.06,kgCO2/kWh,estimado,Ordem de grandeza do fator médio do SIN (MCTI); confirmar ano vigente
+reducao_banho_alt_a_min,3,min,premissa,Alternativa A: banho de 8 para 5 min (meta comportamental)
+custo_aquecedor_solar_rs,4500,R$,estimado,Kit coletor plano + reservatório 200 L instalado; FAZER 3 ORÇAMENTOS locais
+manutencao_aquecedor_solar_rs_ano,100,R$/ano,estimado,Limpeza/inspeção anual; estimativa
+fracao_solar_aquecedor,0.70,fração anual,estimado,Fração solar média anual típica (30% fica com apoio elétrico em dias nublados/inverno); ver Inmetro-PBE e fabricante
+vida_util_aquecedor_anos,15,anos,estimado,Vida útil típica informada por fabricantes/Inmetro-PBE
+custo_fv_rs_por_wp,5.00,R$/Wp,estimado,Sistemas residenciais pequenos instalados; FAZER 3 ORÇAMENTOS locais
+irradiacao_hsp_kwh_m2_dia,4.5,kWh/m2/dia,estimado,Ordem de grandeza para Grande SP; confirmar no Atlas Brasileiro de Energia Solar (INPE) ou CRESESB/SunData
+desempenho_global_pr,0.80,adimensional,estimado,Perdas típicas de um sistema FV (inversor, temperatura, sujeira)
+fator_perda_fio_b,0.10,fração,estimado,Redução da economia por cobrança progressiva do Fio B (Lei 14.300/2022) e custo de disponibilidade; confirmar com a distribuidora
+manutencao_fv_rs_ano,80,R$/ano,estimado,Limpeza/inspeção; estimativa
+vida_util_fv_anos,25,anos,estimado,Garantia de desempenho típica de módulos

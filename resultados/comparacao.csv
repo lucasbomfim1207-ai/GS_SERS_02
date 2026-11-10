@@ -1,0 +1,5 @@
+nome,kwh_mes_rede,economia_kwh_mes,economia_rs_mes,investimento_rs,custo_manut_ano_rs,payback_anos,custo_total_horizonte_rs,evitado_kgco2_ano,observacao
+Base: chuveiro elétrico (situação atual),88.0,0.0,0.0,0,0,0.0,11616.0,0.0,Referência para comparação.
+A) Uso consciente (banho mais curto),55.0,33.0,36.3,0,0,0.0,7260.0,23.8,Custo zero; depende de mudança de hábito. Reduz também consumo de água.
+B) Aquecedor solar de água + apoio elétrico,26.4,61.6,67.76,4500.0,100.0,6.310298407000223,8984.8,44.4,"Exige telhado com sol, reservatório e encanamento; vida útil ~15 anos."
+C) Energia solar fotovoltaica (0.81 kWp),0.0,88.0,87.12,4074.07,80.0,4.219914312721736,6035.67,63.4,"Compensa o consumo na conta (GD, Lei 14.300/2022); exige análise da distribuidora, telhado adequado e pode haver taxa mínima."
